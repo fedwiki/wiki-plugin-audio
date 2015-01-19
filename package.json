@@ -1,0 +1,36 @@
+{
+  "name": "wiki-plugin-audio",
+  "version": "0.0.1",
+  "description": "Federated Wiki - Audio Plugin",
+  "keywords": [
+    "audio",
+    "wiki",
+    "federated wiki",
+    "plugin"
+  ],
+  "author": {
+    "name": "Paul Rodwell",
+    "email": "paul.rodwell@btinternet.com",
+    "url": "http://wiki-paul90.rhcloud.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-coffee": "~0.10",
+    "grunt-contrib-watch": "~0.6"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedwiki/wiki-plugin-audio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fedwiki/wiki-plugin-audio/issues"
+  },
+  "engines": {
+    "node": "0.10"
+  }
+}
