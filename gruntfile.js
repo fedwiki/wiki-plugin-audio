@@ -15,6 +15,7 @@ module.exports = function (grunt) {
       }
     },
 
+
     watch: {
       all: {
         files: ['client/*.coffee'],

@@ -1,3 +1,9 @@
+###
+ * Federated Wiki : Audio Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-audio/blob/master/LICENSE.txt
+###
 
 parse = (text='') ->
   result = {}
