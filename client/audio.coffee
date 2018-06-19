@@ -20,8 +20,9 @@ parse = (text='') ->
 embed = ({key}) ->
   """
     <iframe
+      onload="this.height=this.contentWindow.document.body.clientHeight + 5 + 'px'"
       srcdoc='<audio src="#{key}" preload="none" controls style="width: 100%;"><a href="#{key}">download audio</a></audio>'
-      width="100%" frameborder=0 seamless scrolling="no" height="40px">
+      width="100%" frameborder=0 seamless scrolling="no">
     </iframe>
   """
 
