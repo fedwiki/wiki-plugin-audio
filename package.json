@@ -1,6 +1,6 @@
 {
   "name": "wiki-plugin-audio",
-  "version": "0.1.10",
+  "version": "0.2.0-rc.0",
   "description": "Federated Wiki - Audio Plugin",
   "keywords": [
     "audio",
